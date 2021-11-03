@@ -14,6 +14,9 @@
   max-height: 346px;
 }
 
+.produto:hover {
+  border: 2px solid #828282;
+}
 .produto-img {
   display: flex;
   justify-content: center;

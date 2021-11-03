@@ -81,7 +81,9 @@
   color: #bdbdbd;
   background-color: transparent;
 }
-
+.produto-remove:hover {
+  text-decoration: underline;
+}
 .total {
   padding: 10px;
   border-top: 2px solid #e0e0e0;
@@ -112,6 +114,11 @@
 
   width: 343px;
   height: 60px;
+}
+
+.total-button:hover {
+  color: #e0e0e0;
+  background-color: #828282;
 }
 
 @media (min-width: 863px) {

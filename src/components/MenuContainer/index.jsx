@@ -36,7 +36,10 @@ export default function MenuContainer({
                         {produto.category}
                       </div>
                     </div>
-                    <button onClick={() => handleRemove(produto)}>
+                    <button
+                      className="produto-remove"
+                      onClick={() => handleRemove(produto)}
+                    >
                       Remover
                     </button>
                   </div>
